@@ -18,9 +18,8 @@ CoreImage：给图片提供各种滤镜处理，比如高斯模糊、锐化等
 
 OpenGL-ES：主要用于游戏绘制，但它是一套编程规范，具体由设备制造商实现
 
-绘图系统
 
-1843940-6bffaf8661105b1f.png
+
 
 二、绘图方式
 
@@ -154,6 +153,7 @@ CGContextAddEllipseInRect(con, CGRectMake(0,0,100,100));
 CGContextSetFillColorWithColor(con, [UIColor blueColor].CGColor);
 CGContextFillPath(con);
 }
+
 3.drawLayer:inContext:
 
 在UIView子类的drawLayer:inContext:方法中也可以实现绘图任务，它是一个图层的代理方法，而为了能够调用该方法，需要给图层的delegate设置代理对象，其中代理对象不能是UIView对象，因为UIView对象已经是它内部根层（隐式层）的代理对象，再将它设置为另一个层的代理对象就会出问题。
