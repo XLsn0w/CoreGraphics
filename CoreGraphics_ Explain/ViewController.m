@@ -11,7 +11,6 @@
 @interface ViewController ()<HMHomeManagerDelegate,UIImagePickerControllerDelegate>
 
 @property (nonatomic,strong) HMHomeManager *homeManager;
-
 @property (nonatomic,strong) UIImageView *imageView;
 
 @end
@@ -38,11 +37,9 @@
     NSMutableArray *array = [[NSMutableArray alloc] init];
     [array insertObject:@"1" atIndex:0];
     
-    objc_msgSend(array,@selector(insertObject:atIndex:),@"1",1);
-    
-    NSLog(@" 打印信息:%@",array);
-    
-    objc_msgSend(self, @selector(eat:));
+//    objc_msgSend(array,@selector(insertObject:atIndex:),@"1",1);
+//    NSLog(@" 打印信息:%@",array);
+//    objc_msgSend(self, @selector(eat:));
 //    ((void(*)(id,SEL, id,id))objc_msgSend)(array,insertObject:atIndex:, @"1", 0);
 
 

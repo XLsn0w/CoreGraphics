@@ -1,14 +1,6 @@
-//
-//  UIImage+GLProcessing.m
-//  UIImageOperationDemo
-//
-//  Created by 高磊 on 2017/4/12.
-//  Copyright © 2017年 高磊. All rights reserved.
-//
 
 #import "UIImage+GLProcessing.h"
 #import <ImageIO/ImageIO.h>
-
 
 @implementation UIImage (GLProcessing)
 
