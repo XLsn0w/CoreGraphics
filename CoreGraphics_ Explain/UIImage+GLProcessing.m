@@ -4,22 +4,22 @@
 
 @implementation UIImage (GLProcessing)
 
-+ (UIImage*)gl_circleImage:(UIImage*)image withBorder:(CGFloat)border color:(UIColor *)color
-{
-    //通过自己创建一个context来绘制,通常用于对图片的处理
-    //在retian屏幕上要使用这个函数，才能保证不失真
+//通过自己创建一个context来绘制,通常用于对图片的处理
+//在retian屏幕上要使用这个函数，才能保证不失真
++ (UIImage*)draw_roundLayerFromImage:(UIImage*)image lineWidth:(CGFloat)lineWidth color:(UIColor *)color {
     //该函数会自动创建一个context，并把它push到上下文栈顶，坐标系也经处理和UIKit的坐标系相同
     UIGraphicsBeginImageContextWithOptions(CGSizeMake(image.size.width, image.size.height), NO, [UIScreen mainScreen].scale);
     //获取上下文
     CGContextRef context = UIGraphicsGetCurrentContext();
     CGRect rect = CGRectMake(0, 0, image.size.width, image.size.height);
     //设置宽度
-    CGContextSetLineWidth(context, 4*border);
+    CGContextSetLineWidth(context, lineWidth);
     //设置边框颜色
     CGContextSetStrokeColorWithColor(context, color.CGColor);
 
     //画椭圆 当宽和高一样的时候 为圆 此处设置可视范围
     CGContextAddEllipseInRect(context, rect);
+    
     //剪切可视范围
     CGContextClip(context);
 

@@ -17,6 +17,7 @@
 		66905FB1210C0D4F00E40819 /* drawInRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 66905FB0210C0D4F00E40819 /* drawInRect.m */; };
 		66905FB6210C16B000E40819 /* UIImage+GLProcessing.m in Sources */ = {isa = PBXBuildFile; fileRef = 66905FB2210C16AF00E40819 /* UIImage+GLProcessing.m */; };
 		66905FB7210C16B000E40819 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66905FB4210C16AF00E40819 /* ViewController.m */; };
+		66905FB9210C36AF00E40819 /* img.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66905FB8210C36AF00E40819 /* img.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		66905FB2210C16AF00E40819 /* UIImage+GLProcessing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GLProcessing.m"; sourceTree = "<group>"; };
 		66905FB3210C16AF00E40819 /* UIImage+GLProcessing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GLProcessing.h"; sourceTree = "<group>"; };
 		66905FB4210C16AF00E40819 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		66905FB8210C36AF00E40819 /* img.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				66905FB4210C16AF00E40819 /* ViewController.m */,
 				66905FB3210C16AF00E40819 /* UIImage+GLProcessing.h */,
 				66905FB2210C16AF00E40819 /* UIImage+GLProcessing.m */,
+				66905FB8210C36AF00E40819 /* img.jpg */,
 				66905FAF210C0D4F00E40819 /* drawInRect.h */,
 				66905FB0210C0D4F00E40819 /* drawInRect.m */,
 				66905F83210C0D2800E40819 /* Main.storyboard */,
@@ -245,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66905FB9210C36AF00E40819 /* img.jpg in Resources */,
 				66905F8A210C0D2900E40819 /* LaunchScreen.storyboard in Resources */,
 				66905F87210C0D2900E40819 /* Assets.xcassets in Resources */,
 				66905F85210C0D2800E40819 /* Main.storyboard in Resources */,

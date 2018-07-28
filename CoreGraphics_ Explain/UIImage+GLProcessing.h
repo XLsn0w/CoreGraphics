@@ -11,11 +11,11 @@
  创建带有外围圈的圆圈图片
 
  @param image 原始图片
- @param border 图片外边框
+ @param lineWidth 图片外边框
  @param color 外围圆圈颜色
  @return 返回裁剪后的图片
  */
-+ (UIImage*)gl_circleImage:(UIImage*)image withBorder:(CGFloat)border color:(UIColor*)color;
++ (UIImage*)draw_roundLayerFromImage:(UIImage*)image lineWidth:(CGFloat)lineWidth color:(UIColor *)color;
 
 
 /**
@@ -166,4 +166,5 @@
  @return 返回图片
  */
 + (UIImage *)gl_creatImageWithString:(NSAttributedString *)string imageSize:(CGSize)imageSize imageColor:(UIColor *)imageColor;
+
 @end
