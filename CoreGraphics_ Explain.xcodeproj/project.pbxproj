@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		665AAE58210EA2C7006447BA /* UIResponder+Adapt.m in Sources */ = {isa = PBXBuildFile; fileRef = 665AAE57210EA2C7006447BA /* UIResponder+Adapt.m */; };
 		66905F7F210C0D2800E40819 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66905F7E210C0D2800E40819 /* AppDelegate.m */; };
 		66905F85210C0D2800E40819 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66905F83210C0D2800E40819 /* Main.storyboard */; };
 		66905F87210C0D2900E40819 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66905F86210C0D2900E40819 /* Assets.xcassets */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		665AAE56210EA2C7006447BA /* UIResponder+Adapt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIResponder+Adapt.h"; sourceTree = "<group>"; };
+		665AAE57210EA2C7006447BA /* UIResponder+Adapt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+Adapt.m"; sourceTree = "<group>"; };
 		66905F7A210C0D2800E40819 /* CoreGraphics_ Explain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreGraphics_ Explain.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66905F7D210C0D2800E40819 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		66905F7E210C0D2800E40819 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -115,6 +118,8 @@
 				66905FB4210C16AF00E40819 /* ViewController.m */,
 				66905FB3210C16AF00E40819 /* UIImage+GLProcessing.h */,
 				66905FB2210C16AF00E40819 /* UIImage+GLProcessing.m */,
+				665AAE56210EA2C7006447BA /* UIResponder+Adapt.h */,
+				665AAE57210EA2C7006447BA /* UIResponder+Adapt.m */,
 				66905FB8210C36AF00E40819 /* img.jpg */,
 				66905FAF210C0D4F00E40819 /* drawInRect.h */,
 				66905FB0210C0D4F00E40819 /* drawInRect.m */,
@@ -281,6 +286,7 @@
 				66905FB1210C0D4F00E40819 /* drawInRect.m in Sources */,
 				66905F7F210C0D2800E40819 /* AppDelegate.m in Sources */,
 				66905FB7210C16B000E40819 /* ViewController.m in Sources */,
+				665AAE58210EA2C7006447BA /* UIResponder+Adapt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
