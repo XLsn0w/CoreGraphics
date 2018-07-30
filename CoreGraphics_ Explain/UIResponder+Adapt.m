@@ -47,7 +47,7 @@ typedef NS_ENUM (NSInteger, kAdaptModelType) {
 #define IS_RETINA ([[UIScreen mainScreen] scale] >= 2.0)
 
 /** 获取分辨率尺寸 */
-#define SCREEN_SCALE_WIDTH [[UIScreen mainScreen] currentMode].size.width;
+#define SCREEN_SCALE_WIDTH  [[UIScreen mainScreen] currentMode].size.width;
 #define SCREEN_SCALE_HEIGHT [[UIScreen mainScreen] currentMode].size.height;
 
 /** 获取物理屏尺寸 */
