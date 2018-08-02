@@ -8,9 +8,9 @@
 
 #ifndef SwizzleClassMethodHeader_h
 #define SwizzleClassMethodHeader_h
-//#import <objc/runtime.h>
+#import <objc/runtime.h>
 
-static inline void swizzleMethod(Class class, SEL oldSel, SEL newSel){
+static inline void swizzleMethod(Class class, SEL oldSel, SEL newSel) {
     
     //class_getInstanceMethod既可以获取实例方法,又可以获取类方法
     //class_getClassMethod只能获取类方法,不能获取实例方法
@@ -34,6 +34,7 @@ static inline void swizzleMethod(Class class, SEL oldSel, SEL newSel){
     }
     
 }
+
 static void swizzleClassMethod(Class class, SEL oldSel, SEL newSel){
     //要特别注意你替换的方法到底是哪个性质的方法
     // When swizzling a Instance method, use the following:
